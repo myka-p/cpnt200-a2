@@ -12,17 +12,16 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
-      "type": "string"
-    },
-    "Email": {
-      "type": "email"
-    },
     "PhoneNumber": {
       "type": "biginteger"
     },
     "NumberOfParty": {
       "type": "integer"
+    },
+    "CustomerInfo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "email-component.email"
     }
   }
 }
