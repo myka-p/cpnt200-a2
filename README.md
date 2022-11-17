@@ -14,6 +14,7 @@ For this assignment, I will be creating content for a hypothetical client who ow
 
 ## Relation and components
 
+
 ## Attributions
 - Boodle fight image from Unsplash (https://unsplash.com/photos/Qt8diusVRqg)
 ---
