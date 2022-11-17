@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "make_a_reservations",
+  "info": {
+    "singularName": "make-a-reservation",
+    "pluralName": "make-a-reservations",
+    "displayName": "Make a reservation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "PhoneNumber": {
+      "type": "biginteger"
+    },
+    "NumberOfParty": {
+      "type": "integer"
+    }
+  }
+}

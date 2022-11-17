@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alacartes",
+  "info": {
+    "singularName": "alacarte",
+    "pluralName": "alacartes",
+    "displayName": "Alacarte",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "FoodName": {
+      "type": "string"
+    },
+    "FoodDescription": {
+      "type": "richtext"
+    },
+    "FoodPrice": {
+      "type": "decimal"
+    },
+    "Main": {
+      "type": "boolean"
+    },
+    "Side": {
+      "type": "boolean"
+    }
+  }
+}
