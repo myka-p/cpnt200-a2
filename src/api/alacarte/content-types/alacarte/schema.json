@@ -26,6 +26,12 @@
     },
     "Side": {
       "type": "boolean"
+    },
+    "packages": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::package.package",
+      "inversedBy": "alacartes"
     }
   }
 }

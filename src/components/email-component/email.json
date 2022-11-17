@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_email_component_emails",
+  "info": {
+    "displayName": "Email",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "FirstName": {
+      "type": "string"
+    },
+    "LastName": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    }
+  }
+}

@@ -20,6 +20,12 @@
     },
     "FoodPrice": {
       "type": "decimal"
+    },
+    "alacartes": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::alacarte.alacarte",
+      "inversedBy": "packages"
     }
   }
 }
