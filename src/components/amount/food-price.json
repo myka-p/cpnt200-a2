@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_amount_food_prices",
+  "info": {
+    "displayName": "FoodPrice",
+    "icon": "dollar-sign"
+  },
+  "options": {},
+  "attributes": {
+    "Price": {
+      "type": "biginteger"
+    }
+  }
+}

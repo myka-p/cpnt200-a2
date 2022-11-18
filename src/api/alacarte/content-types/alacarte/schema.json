@@ -18,20 +18,34 @@
     "FoodDescription": {
       "type": "richtext"
     },
-    "FoodPrice": {
-      "type": "decimal"
-    },
-    "Main": {
-      "type": "boolean"
-    },
-    "Side": {
-      "type": "boolean"
-    },
     "packages": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::package.package",
       "inversedBy": "alacartes"
+    },
+    "FoodCategory": {
+      "type": "enumeration",
+      "enum": [
+        "main",
+        "sides",
+        "drinks",
+        "desserts"
+      ]
+    },
+    "FoodImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Price": {
+      "type": "decimal"
     }
   }
 }

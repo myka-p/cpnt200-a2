@@ -4,7 +4,8 @@
   "info": {
     "singularName": "homepage",
     "pluralName": "homepages",
-    "displayName": "Homepage"
+    "displayName": "Home page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,8 +15,15 @@
     "RestaurantDescription": {
       "type": "richtext"
     },
-    "SubscriberEmail": {
-      "type": "email"
+    "CoverPhoto": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

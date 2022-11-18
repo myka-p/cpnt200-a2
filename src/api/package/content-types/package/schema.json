@@ -4,7 +4,7 @@
   "info": {
     "singularName": "package",
     "pluralName": "packages",
-    "displayName": "Package",
+    "displayName": "Meal Package",
     "description": ""
   },
   "options": {
@@ -25,7 +25,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::alacarte.alacarte",
-      "inversedBy": "packages"
+      "mappedBy": "packages"
     }
   }
 }

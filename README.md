@@ -17,7 +17,19 @@ For this assignment, I will be creating content for a hypothetical client who ow
 - I've also made an email component, used to Make a reservations
 
 ## Attributions
-- Boodle fight image from Unsplash (https://unsplash.com/photos/Qt8diusVRqg)
+Images from Unsplash:
+- Boodle fight image (https://unsplash.com/photos/Qt8diusVRqg)
+- Fried Pork Belly (https://unsplash.com/photos/ENsAKjY3YOs)
+- Grilled Fish (https://unsplash.com/photos/cYCUqX97w4c)
+- Pork Skewers (https://unsplash.com/photos/VovEm5lCduw)
+- Eggplant Omelet (https://unsplash.com/photos/byS7hI3fni0)
+- Crab (https://unsplash.com/photos/IHFa5s6xaRE)
+- Mussels (https://unsplash.com/photos/4w3QawkfUIA)
+- Spring Rolls (https://unsplash.com/photos/broMfoJ0Emg)
+- Grilled Chicken (https://unsplash.com/photos/PaaboPF3dVY)
+- Pop (https://unsplash.com/photos/sQNq223Rr54)
+- Juice (https://unsplash.com/photos/KlVIYmGVRQ8)
+- Boodle fight image 2 (https://unsplash.com/photos/sedJnjrUMM8)
 
 ## Additional comments
 The API token in the `.env` file might not be up to date. Please refer to the API Token in the Brightspace comment submission for the latest one. 
